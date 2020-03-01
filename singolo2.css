@@ -1,0 +1,163 @@
+body{
+    margin: 0;
+}
+@font-face {
+    font-family: Lato; /* Имя шрифта */
+    src: url(assets/Lato-Light.ttf); /* Путь к файлу со шрифтом */
+   }
+@font-face {
+    font-family: Lato-bold; /* Имя шрифта */
+    src: url(assets/Lato-Bold.ttf); /* Путь к файлу со шрифтом */
+   }   
+.portFolio{
+    width: 1020px;
+    height: 870px;
+    background-color: #2d303a;
+    margin-bottom: -19px;
+}
+.lineBotton{
+    margin-top: 55px;
+    width: 1020px;
+    height: 6px;
+    background-color:#323746;
+    margin-bottom: 0;
+}
+.header h1{
+    font-size: 30px;
+    line-height: 18px;
+    color: #666d89;
+    font-family: "Lato-bold";
+    font-weight: 900;
+    text-align: left;
+    padding-top: 65px;
+    margin-left: 40px;
+    margin-bottom: 0;
+}
+.header p{
+    width: 940px;
+    /* height: 57px; */
+    font-size: 18px;
+    line-height: 30px;
+    color: #767e9e;
+    font-family: "Lato";
+    font-weight:100;
+    text-align: left;
+    margin-top: 30px;
+    margin-left: 40px;
+    margin-bottom: 0;
+}
+.header ul{
+    margin-top: 13px;
+    margin-bottom: 8px;
+}
+.header ul li:nth-child(1){
+    margin-left: 0;
+}
+.header ul li{
+    display: inline;
+    font-size: 12px;
+    line-height: 22px;
+    color: #767e9e;
+    font-family: "Lato";
+    font-weight: 400;
+    text-align: left;
+    border:1px #767e9e solid;
+    border-radius: 15%;
+    margin-left: 8px;
+    padding: 3px 5px;
+    
+}
+.header ul li:hover{
+    color: white;
+    border-color: white;
+    cursor: pointer;
+    margin-top: 0;
+}
+.header ul li:active{
+    cursor: pointer;
+    border-color: #767e9e;
+    color: #767e9e;
+    box-shadow: inset 0 0  5px #767e9e;;
+}
+.image{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 30px;
+}
+.image img{
+    width: 220px;
+    height: 187px;
+    background-color: #464b5e;
+    margin:10px;       
+}
+.image img:nth-child(n+13) {
+    display: none;
+}
+.aboutUs{
+    width: 1020px;
+    height: 728px;
+    background-color: #f2f2f2;
+    margin-top: 0;
+}
+.aboutUs h1{
+    font-size: 30px;
+    line-height: 18px;
+    color: #666d89;
+    font-family: "Lato-bold";
+    font-weight: 900;
+    padding-top: 65px;
+    margin-left: 40px;
+}
+.aboutUs p{
+    width: 940px;
+    height: 57px;
+    font-size: 18px;
+    line-height: 30px;
+    color: #767e9e;
+    font-family: "Lato";
+    font-weight: 300;
+    text-align: left;
+    margin-left: 40px;
+    padding-top: 10px;
+}
+.user{
+    display: flex;
+    width: 1020px;
+    margin-top:35px;
+   
+}
+.user div{
+    width: 300px;
+    margin:10px;
+    height: 445px;
+
+}
+div.left{
+    margin-left: 40px;
+}
+.user div h3{
+    font-size: 18px;
+    line-height: 18px;
+    color: #666d89;
+    font-family: "Lato-bold";
+    font-weight: 900;
+    text-align: left;
+    margin-bottom: 0;
+}
+.user div p{
+    width: 300px;
+    margin-top: 0;
+    font-size: 12px;
+    line-height: 22px;
+    color: #767e9e;
+    font-family: "Lato";
+    font-weight: 400;
+    text-align: left;
+    margin-left: 0;
+}
+.lineBotton2{
+    width: 1020px;
+    height: 6px;
+    margin-top: 50px;
+    background-color: #ffffff;
+}
