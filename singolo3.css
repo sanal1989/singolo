@@ -1,0 +1,157 @@
+div.getQuote{
+    width: 1020px;
+    height: 648px;
+    background-color: #f06c64;
+}
+.getQuote{
+    margin-bottom: 0;
+}
+.getQuote h1{
+    font-size: 30px;
+    line-height: 18px;
+    color: #f0d8d9;
+    font-family: "Lato";
+    font-weight: 900;
+    text-align: left;
+    padding-top: 65px;
+    padding-left: 40px;
+}
+.getQuote p{
+    width: 940px;
+    height: 57px;
+    font-size: 18px;
+    line-height: 30px;
+    color: #f0d8d9;
+    font-family: "Lato";
+    font-weight: 300;
+    text-align: left;
+    padding-left: 40px;
+}
+div.flexFrom{
+    display: flex;
+}
+form{
+    margin-left: 40px;
+    width: 619px;
+}
+input {
+    margin-top: 15px;
+}
+input.name{
+    width: 604px;
+    height: 38px;
+    border-radius: 5px;
+    background-color: #d6564f;
+    font-size: 12px;
+    line-height: 22px;
+    color: #ec7e7e;
+    font-family: "Lato";
+    font-weight: 400;
+    text-align: left;
+    padding-left: 15px;
+}
+input.email{
+    width: 604px;
+    height: 38px;
+    border-radius: 5px;
+    background-color: #d6564f;
+    font-size: 12px;
+    line-height: 22px;
+    color: #f48c8f;
+    font-family: "Lato";
+    font-weight: 400;
+    text-align: left;
+    padding-left: 15px;
+}
+input.Subject{
+    width: 604px;
+    height: 38px;
+    border-radius: 5px;
+    background-color: #d6564f;
+    font-size: 12px;
+    line-height: 22px;
+    color: #f48c8f;
+    font-family: "Lato";
+    font-weight: 400;
+    text-align: left;
+    padding-left: 15px;
+}
+input.description{
+    width: 604px;
+    height: 202px;
+    border-radius: 5px;
+    background-color: #d6564f;
+    font-size: 12px;
+    line-height: 22px;
+    color: #f48c8f;
+    font-family: "Lato";
+    font-weight: 400;
+    text-align: left;
+    padding-left: 15px;
+}
+.information{
+    margin-left: 20px;
+}
+.information h3{
+    font-size: 18px;
+    line-height: 18px;
+    color: #f0d8d9;
+    font-family: "Lato";
+    font-weight: 900;
+    text-align: left;
+}
+.information p{
+    width: 300px;
+    font-size: 12px;
+    line-height: 22px;
+    color: #f0d8d9;
+    font-family: "Lato";
+    font-weight: 400;
+    text-align: left;
+    padding-left: 0;
+    padding-bottom: 40px;
+}
+.information a{
+    text-decoration: none;
+    color: #f0d8d9;
+    font-family: "Lato";
+    font-weight: 400;
+    text-align: left;
+    padding-left: 25px;
+}
+.geo{
+    background-image: url(assets/image/location.png);
+    background-repeat: no-repeat;
+    background-position: 3px 6px;
+}
+.infoAddress{
+    background-image: url(assets/image/phone\ \(1\).png);
+    background-repeat: no-repeat;
+    background-position: 3px 6px;
+}
+.infoMail{
+    background-image: url(assets/image/mail.png);
+    background-repeat: no-repeat;
+    background-position: 3px 6px;
+}
+.geo:hover{
+    background-image: url(assets/image/locationH.png);
+}
+.infoAddress:hover{
+    background-image: url(assets/image/phone1.svg);
+}
+.infoMail:hover{
+    background-image: url(assets/image/mail.svg);
+}
+.getBottom{
+    width: 1020px;
+    height: 6px;
+    background-color:#ea676b;
+    margin-top: 66px;
+}
+.endSite{
+    background-image: url(assets/image/Footer.png);
+    width: 1020px;
+    height: 75px;
+    margin-top: 0;
+}
