@@ -2,6 +2,7 @@ div.getQuote{
     width: 1020px;
     height: 648px;
     background-color: #f06c64;
+    margin-top: -50px;
 }
 .getQuote{
     margin-bottom: 0;

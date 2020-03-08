@@ -1,0 +1,562 @@
+@font-face {
+    font-family: Lato; /* Имя шрифта */
+    src: url(assets/Lato-Bold.ttf); /* Путь к файлу со шрифтом */
+   }
+   /* begin singolo1 */
+body{
+    width:1020px;
+    background-color:green;
+}
+header div{
+    width: 1020px;
+    height: 89px;
+    background-color: #2d303a;
+    display: flex;
+    justify-content: space-between;
+}
+div h1{
+    font-size: 24px;
+    line-height: 6px;
+    color: #ffffff;
+    font-family: "Lato";
+    font-weight: 700;
+    text-align: left;
+    margin-top:43px;
+    margin-left: 42px;
+}
+div h1 span{
+    color: #f06c64;
+}
+div ul{
+    align-items: flex-end;
+    margin-top:40px;
+    margin-right: 40px;
+    
+}
+div ul li{
+    font-size: 12px;
+    line-height: 6px;
+    color:#ffffff;
+    font-family: "Lato";
+    font-weight: 700;
+    text-align: left;
+    display: inline;
+    margin-left: 10px;
+    padding-left:14px ;
+}
+div ul li:nth-child(1){
+    color: #f06c64;
+}
+.straight{
+    align-items:center;
+    width: 1020px;
+    height: 6px;
+    background-color:#323746;
+}
+a{
+    color:inherit;
+    text-decoration: none;
+}
+a:hover{
+    cursor:pointer;
+}
+main{
+    width: 1020px;
+    height: 594px;
+    background-color: #f06c64;
+    display: flex;
+}
+div.left{
+    margin-top: 281px;
+    margin-left:42px;
+    width:16px;
+    height:27px;
+    background-image:url("assets/image/left.png");
+}
+div.left:hover{
+    background-image:url("assets/image/leftactive.png");
+}
+div.vPhone{
+    margin-top:53px;
+    margin-left:50px;
+    width:240px;
+    height:480px;
+    background-image:url("assets/image/verticalphone/Shadow.png");
+    padding:0px;
+}
+.vDisplay{
+    margin-top:-1px;
+    margin-left:-2px;
+    width:218px;
+    height:460px;
+    background-image:url("assets/image/verticalphone/Base.png");
+    padding:0px;
+    border:1px white solid ;
+    border-color:transparent;
+}
+.csreen{
+    margin-top:3px;
+    margin-left:2px;
+    width:317px;
+    height:450px;
+    background-image:url("assets/image/verticalphone/Screen.png");
+    background-repeat: no-repeat;
+    background-position: 11px 60px;  
+    border:1px white solid ;
+    border-color:transparent;
+}
+.cam{
+    margin-top: -440px;
+    margin-left: 100px;
+    width: 11px;
+    height: 11px;
+    background-image:url("assets/image/verticalphone/Cam.png");
+    background-repeat: no-repeat;
+}
+.picture{
+    margin-top:63px;
+    margin-left:14px;
+    width:188px;
+    height:333px;
+    background-image:url("assets/image/verticalphone/Layer\ 6.png");
+    background-repeat: no-repeat;
+    background-position: -15px -135px;
+}
+.homeButton{
+    margin-top:8px;
+    margin-left:86px;
+    width:46px;
+    height:46px;
+    background-image:url("assets/image/verticalphone/Home\ Button.png");
+    background-repeat: no-repeat;
+    
+    border-radius: 50%;
+}
+div.homeButton:hover{
+    border:1px #c7c7c7 solid;
+    cursor: pointer;
+}
+div.speaker{
+    margin-top: 10px;
+    margin-left: 90px;
+    width: 40px;
+    height: 7px;
+    background-image:url("assets/image/verticalphone/Speaker.png");
+    background-repeat: no-repeat;
+}
+div.hPhone{
+    margin-top:72px;
+    margin-left:15px;
+    width:600px;
+    height:400px;
+    background-image:url("assets/image/horisontalphone/iPhone\ Horizontal.png");    
+}
+div.right{
+    margin-top: 281px;
+    margin-left:2px;
+    width:16px;
+    height:27px;
+    background-image:url("assets/image/right.png");
+}
+div.right:hover{
+    background-image:url("assets/image/rightactive.png");
+}
+.straightMain{
+    width: 1020px;
+    height: 6px;
+    background-color: #ea676b;
+}
+section.footer{
+    width: 1020px;
+    height: 495px;
+    background-color: #f2f2f2;  
+}
+.footer h2{
+    font-size: 30px;
+    line-height: 18px;
+    color: #666d89;
+    font-family: "Lato";
+    font-weight: 900;
+    text-align: left;
+    margin-left: 40px;
+    margin-top: 0;
+    padding-top:60px;
+    
+}
+.footer p{
+    width: 950px;
+    font-size: 16px;
+    line-height: 30px;
+    color: #767e9e;
+    font-family: "Lato";
+    font-weight: 300;
+    text-align: left;
+    margin-left: 40px;
+    margin-top: 0px;
+}
+.flexbox{
+    display: flex;
+    flex-wrap: wrap;
+}
+article{
+    flex-basis: 300px;
+}
+article img{
+    float:left;
+    margin:30px;
+    height:50px;
+}
+.flexbox article:nth-of-type(1){
+    margin-left: 10px;
+    }
+.flexbox article h3{
+    font-size: 18px;
+    line-height: 18px;
+    color: #666d89;
+    font-family: "Lato";
+    font-weight: 900;
+    text-align: left;
+    padding-top: 10px;
+    
+}
+.flexbox article p{
+    width:290px;
+    font-size: 12px;
+    line-height: 22px;
+    color: #767e9e;
+    font-family: "Lato";
+    font-weight: 400;
+    text-align: left;
+}
+.footer article:nth-of-type(4){
+    margin-left: 10px;
+ }
+.bottomStr{
+    width: 1020px;
+    height: 6px;
+    background-color: #ffffff;
+}
+body{
+    margin: 0;
+}
+/* begin singolo2 */
+@font-face {
+    font-family: Lato; /* Имя шрифта */
+    src: url(assets/Lato-Light.ttf); /* Путь к файлу со шрифтом */
+   }
+@font-face {
+    font-family: Lato-bold; /* Имя шрифта */
+    src: url(assets/Lato-Bold.ttf); /* Путь к файлу со шрифтом */
+   }   
+.portFolio{
+    width: 1020px;
+    height: 870px;
+    background-color: #2d303a;
+    margin-bottom: -19px;
+    margin-top: -43px;
+}
+.lineBotton{
+    margin-top: 55px;
+    width: 1020px;
+    height: 6px;
+    background-color:#323746;
+    margin-bottom: 0;
+}
+.header h1{
+    font-size: 30px;
+    line-height: 18px;
+    color: #666d89;
+    font-family: "Lato-bold";
+    font-weight: 900;
+    text-align: left;
+    padding-top: 65px;
+    margin-left: 40px;
+    margin-bottom: 0;
+}
+.header p{
+    width: 940px;
+    /* height: 57px; */
+    font-size: 18px;
+    line-height: 30px;
+    color: #767e9e;
+    font-family: "Lato";
+    font-weight:100;
+    text-align: left;
+    margin-top: 30px;
+    margin-left: 40px;
+    margin-bottom: 0;
+}
+.header ul{
+    margin-top: 13px;
+    margin-bottom: 8px;
+}
+.header ul li:nth-child(1){
+    margin-left: 0;
+}
+.header ul li{
+    display: inline;
+    font-size: 12px;
+    line-height: 22px;
+    color: #767e9e;
+    font-family: "Lato";
+    font-weight: 400;
+    text-align: left;
+    border:1px #767e9e solid;
+    border-radius: 15%;
+    margin-left: 8px;
+    padding: 3px 5px;
+    
+}
+.header ul li:hover{
+    color: white;
+    border-color: white;
+    cursor: pointer;
+    margin-top: 0;
+}
+.header ul li:active{
+    cursor: pointer;
+    border-color: #767e9e;
+    color: #767e9e;
+    box-shadow: inset 0 0  5px #767e9e;;
+}
+.image{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 30px;
+}
+.image img{
+    width: 220px;
+    height: 187px;
+    background-color: #464b5e;
+    margin:10px;       
+}
+.image img:nth-child(n+13) {
+    display: none;
+}
+.aboutUs{
+    width: 1020px;
+    height: 728px;
+    background-color: #f2f2f2;
+    margin-top: -45px;
+}
+.aboutUs h1{
+    font-size: 30px;
+    line-height: 18px;
+    color: #666d89;
+    font-family: "Lato-bold";
+    font-weight: 900;
+    padding-top: 65px;
+    margin-left: 40px;
+}
+.aboutUs p{
+    width: 940px;
+    height: 57px;
+    font-size: 18px;
+    line-height: 30px;
+    color: #767e9e;
+    font-family: "Lato";
+    font-weight: 300;
+    text-align: left;
+    margin-left: 40px;
+    padding-top: 10px;
+}
+.user{
+    display: flex;
+    width: 1020px;
+    margin-top:35px;
+   
+}
+.user div{
+    width: 300px;
+    margin:10px;
+    height: 445px;
+
+}
+div.leftface{
+    margin-left: 40px;
+}
+.user div h3{
+    font-size: 18px;
+    line-height: 18px;
+    color: #666d89;
+    font-family: "Lato-bold";
+    font-weight: 900;
+    text-align: left;
+    margin-bottom: 0;
+}
+.user div p{
+    width: 300px;
+    margin-top: 0;
+    font-size: 12px;
+    line-height: 22px;
+    color: #767e9e;
+    font-family: "Lato";
+    font-weight: 400;
+    text-align: left;
+    margin-left: 0;
+}
+.lineBotton2{
+    width: 1020px;
+    height: 6px;
+    margin-top: 50px;
+    background-color: #ffffff;
+}
+/* begin singolo3 */
+div.getQuote{
+    width: 1020px;
+    height: 648px;
+    background-color: #f06c64;
+    margin-top: -45px;
+}
+.getQuote{
+    margin-bottom: 0;
+}
+.getQuote h1{
+    font-size: 30px;
+    line-height: 18px;
+    color: #f0d8d9;
+    font-family: "Lato";
+    font-weight: 900;
+    text-align: left;
+    padding-top: 65px;
+    padding-left: 40px;
+}
+.getQuote p{
+    width: 940px;
+    height: 57px;
+    font-size: 18px;
+    line-height: 30px;
+    color: #f0d8d9;
+    font-family: "Lato";
+    font-weight: 300;
+    text-align: left;
+    padding-left: 40px;
+}
+div.flexFrom{
+    display: flex;
+}
+form{
+    margin-left: 40px;
+    width: 619px;
+}
+input {
+    margin-top: 15px;
+}
+input.name{
+    width: 604px;
+    height: 38px;
+    border-radius: 5px;
+    background-color: #d6564f;
+    font-size: 12px;
+    line-height: 22px;
+    color: #ec7e7e;
+    font-family: "Lato";
+    font-weight: 400;
+    text-align: left;
+    padding-left: 15px;
+}
+input.email{
+    width: 604px;
+    height: 38px;
+    border-radius: 5px;
+    background-color: #d6564f;
+    font-size: 12px;
+    line-height: 22px;
+    color: #f48c8f;
+    font-family: "Lato";
+    font-weight: 400;
+    text-align: left;
+    padding-left: 15px;
+}
+input.Subject{
+    width: 604px;
+    height: 38px;
+    border-radius: 5px;
+    background-color: #d6564f;
+    font-size: 12px;
+    line-height: 22px;
+    color: #f48c8f;
+    font-family: "Lato";
+    font-weight: 400;
+    text-align: left;
+    padding-left: 15px;
+}
+input.description{
+    width: 604px;
+    height: 202px;
+    border-radius: 5px;
+    background-color: #d6564f;
+    font-size: 12px;
+    line-height: 22px;
+    color: #f48c8f;
+    font-family: "Lato";
+    font-weight: 400;
+    text-align: left;
+    padding-left: 15px;
+}
+.information{
+    margin-left: 20px;
+}
+.information h3{
+    font-size: 18px;
+    line-height: 18px;
+    color: #f0d8d9;
+    font-family: "Lato";
+    font-weight: 900;
+    text-align: left;
+}
+.information p{
+    width: 300px;
+    font-size: 12px;
+    line-height: 22px;
+    color: #f0d8d9;
+    font-family: "Lato";
+    font-weight: 400;
+    text-align: left;
+    padding-left: 0;
+    padding-bottom: 40px;
+}
+.information a{
+    text-decoration: none;
+    color: #f0d8d9;
+    font-family: "Lato";
+    font-weight: 400;
+    text-align: left;
+    padding-left: 25px;
+}
+.geo{
+    background-image: url(assets/image/location.png);
+    background-repeat: no-repeat;
+    background-position: 3px 6px;
+}
+.infoAddress{
+    background-image: url(assets/image/phone\ \(1\).png);
+    background-repeat: no-repeat;
+    background-position: 3px 6px;
+}
+.infoMail{
+    background-image: url(assets/image/mail.png);
+    background-repeat: no-repeat;
+    background-position: 3px 6px;
+}
+.geo:hover{
+    background-image: url(assets/image/locationH.png);
+}
+.infoAddress:hover{
+    background-image: url(assets/image/phone1.svg);
+}
+.infoMail:hover{
+    background-image: url(assets/image/mail.svg);
+}
+.getBottom{
+    width: 1020px;
+    height: 6px;
+    background-color:#ea676b;
+    margin-top: 66px;
+}
+.endSite{
+    background-image: url(assets/image/Footer.png);
+    width: 1020px;
+    height: 75px;
+    margin-top: 0;
+}
