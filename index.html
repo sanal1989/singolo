@@ -157,12 +157,12 @@
         <h1>Get a Quote</h1>
         <p>Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum. Duis mollis, non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.</p>
         <div class="flexFrom">
-            <form action="" method="GET">
+            <form action="" method="post" onsubmit="valid(this)">
                 <input class="name" type="text" required placeholder="Name (Required)">
                 <input class="email" type="mail" required placeholder="Email (Required)">
-                <input class="Subject" type="text" placeholder="Subject">
-                <input class="description "type="textarea" >
-
+                <input class="Subject" name="subject" type="text" placeholder="Subject">
+                <input class="description" name="description" type="textarea" >
+                <input type="submit">
             </form>
             <div class="information">
                 <h3>Contact Information</h3>

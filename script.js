@@ -27,11 +27,30 @@ const inbgHP = (event) =>{
     screenOnHP =false;
   }
 }
-
+//Portfolio. Взаимодействие с картинками
 const imageBorder = (event) =>{
   document.querySelectorAll('img').forEach((el) => el.classList.remove('imgBorder'));
   event.target.classList.add('imgBorder');
     console.log('border');
+}
+//Get a quote
+function valid (form){
+  let subject = form.subject.value;
+  let description = form.description.value;
+  if(subject==''){
+    subject='Без темы';
+  }
+  if(description==''){
+    description='Без описания';
+  }
+  alert("Письмо отправлено\nТема: "+subject+"\nОписание: "+description);
+  // var newWin = window.open("about:blank", "Письмо отправлено", "width=200,height=200");
+  // newWin.document.writeln("Письмо отправлено<br>");
+  // newWin.document.write("Тема: ");
+  // newWin.document.write(subject);
+  // newWin.document.write("<br>");
+  // newWin.document.write("Описание: ");
+  // newWin.document.writeln(description);
 }
 
 document.querySelector('.image').addEventListener('click',imageBorder);
