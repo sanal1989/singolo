@@ -560,3 +560,15 @@ input.description{
     height: 75px;
     margin-top: 0;
 }
+.darkDisplay{
+      background-image: url(./assets/image/horisontalphone/ScreenGP.png);
+      width:337px;
+      height: 185px;
+      margin-top: 121px;
+      margin-left: 125px;
+      background-repeat: no-repeat;
+}
+.imgBorder{
+    border: 5px #F06C64 solid;
+}
+    
